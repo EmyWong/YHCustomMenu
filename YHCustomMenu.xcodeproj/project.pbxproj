@@ -15,6 +15,15 @@
 		755718EF1F4562EC00BD9552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755718ED1F4562EC00BD9552 /* LaunchScreen.storyboard */; };
 		755718FA1F4562EC00BD9552 /* YHCustomMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 755718F91F4562EC00BD9552 /* YHCustomMenuTests.m */; };
 		755719051F4562EC00BD9552 /* YHCustomMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 755719041F4562EC00BD9552 /* YHCustomMenuUITests.m */; };
+		755719171F45633000BD9552 /* YHCustomMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 755719161F45633000BD9552 /* YHCustomMenuView.m */; };
+		755719191F45680B00BD9552 /* SSW.png in Resources */ = {isa = PBXBuildFile; fileRef = 755719181F45680B00BD9552 /* SSW.png */; };
+		7557191C1F456A1100BD9552 /* YHCustomMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7557191B1F456A1100BD9552 /* YHCustomMenu.m */; };
+		7557191E1F457D8900BD9552 /* SJW.png in Resources */ = {isa = PBXBuildFile; fileRef = 7557191D1F457D8900BD9552 /* SJW.png */; };
+		755719201F457D9300BD9552 /* JGW.png in Resources */ = {isa = PBXBuildFile; fileRef = 7557191F1F457D9300BD9552 /* JGW.png */; };
+		755719221F457D9B00BD9552 /* WZW.png in Resources */ = {isa = PBXBuildFile; fileRef = 755719211F457D9B00BD9552 /* WZW.png */; };
+		755719241F457DA100BD9552 /* MMW.png in Resources */ = {isa = PBXBuildFile; fileRef = 755719231F457DA100BD9552 /* MMW.png */; };
+		755719261F457DA600BD9552 /* DYW.png in Resources */ = {isa = PBXBuildFile; fileRef = 755719251F457DA600BD9552 /* DYW.png */; };
+		755719281F457DAB00BD9552 /* GXW.png in Resources */ = {isa = PBXBuildFile; fileRef = 755719271F457DAB00BD9552 /* GXW.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,17 @@
 		755719001F4562EC00BD9552 /* YHCustomMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHCustomMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		755719041F4562EC00BD9552 /* YHCustomMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCustomMenuUITests.m; sourceTree = "<group>"; };
 		755719061F4562EC00BD9552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		755719151F45633000BD9552 /* YHCustomMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCustomMenuView.h; sourceTree = SOURCE_ROOT; };
+		755719161F45633000BD9552 /* YHCustomMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCustomMenuView.m; sourceTree = SOURCE_ROOT; };
+		755719181F45680B00BD9552 /* SSW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SSW.png; sourceTree = "<group>"; };
+		7557191A1F456A1100BD9552 /* YHCustomMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCustomMenu.h; sourceTree = "<group>"; };
+		7557191B1F456A1100BD9552 /* YHCustomMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCustomMenu.m; sourceTree = "<group>"; };
+		7557191D1F457D8900BD9552 /* SJW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SJW.png; sourceTree = "<group>"; };
+		7557191F1F457D9300BD9552 /* JGW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JGW.png; sourceTree = "<group>"; };
+		755719211F457D9B00BD9552 /* WZW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WZW.png; sourceTree = "<group>"; };
+		755719231F457DA100BD9552 /* MMW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MMW.png; sourceTree = "<group>"; };
+		755719251F457DA600BD9552 /* DYW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DYW.png; sourceTree = "<group>"; };
+		755719271F457DAB00BD9552 /* GXW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GXW.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +121,21 @@
 		755718DE1F4562EC00BD9552 /* YHCustomMenu */ = {
 			isa = PBXGroup;
 			children = (
+				755719151F45633000BD9552 /* YHCustomMenuView.h */,
+				755719161F45633000BD9552 /* YHCustomMenuView.m */,
+				7557191A1F456A1100BD9552 /* YHCustomMenu.h */,
+				7557191B1F456A1100BD9552 /* YHCustomMenu.m */,
 				755718E21F4562EC00BD9552 /* AppDelegate.h */,
 				755718E31F4562EC00BD9552 /* AppDelegate.m */,
 				755718E51F4562EC00BD9552 /* ViewController.h */,
 				755718E61F4562EC00BD9552 /* ViewController.m */,
+				755719271F457DAB00BD9552 /* GXW.png */,
+				755719231F457DA100BD9552 /* MMW.png */,
+				755719251F457DA600BD9552 /* DYW.png */,
+				755719211F457D9B00BD9552 /* WZW.png */,
+				7557191D1F457D8900BD9552 /* SJW.png */,
+				7557191F1F457D9300BD9552 /* JGW.png */,
+				755719181F45680B00BD9552 /* SSW.png */,
 				755718E81F4562EC00BD9552 /* Main.storyboard */,
 				755718EB1F4562EC00BD9552 /* Assets.xcassets */,
 				755718ED1F4562EC00BD9552 /* LaunchScreen.storyboard */,
@@ -247,9 +278,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755719201F457D9300BD9552 /* JGW.png in Resources */,
 				755718EF1F4562EC00BD9552 /* LaunchScreen.storyboard in Resources */,
 				755718EC1F4562EC00BD9552 /* Assets.xcassets in Resources */,
+				755719241F457DA100BD9552 /* MMW.png in Resources */,
+				755719281F457DAB00BD9552 /* GXW.png in Resources */,
 				755718EA1F4562EC00BD9552 /* Main.storyboard in Resources */,
+				755719191F45680B00BD9552 /* SSW.png in Resources */,
+				755719261F457DA600BD9552 /* DYW.png in Resources */,
+				755719221F457D9B00BD9552 /* WZW.png in Resources */,
+				7557191E1F457D8900BD9552 /* SJW.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +313,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				755718E71F4562EC00BD9552 /* ViewController.m in Sources */,
+				7557191C1F456A1100BD9552 /* YHCustomMenu.m in Sources */,
+				755719171F45633000BD9552 /* YHCustomMenuView.m in Sources */,
 				755718E41F4562EC00BD9552 /* AppDelegate.m in Sources */,
 				755718E11F4562EC00BD9552 /* main.m in Sources */,
 			);

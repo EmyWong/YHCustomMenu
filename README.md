@@ -1,6 +1,6 @@
 # YHCustomMenu
 # 效果预览
-
+![image](https://github.com/EmyWong/YHCustomMenu/blob/master/YHCustomMenu.gif)
 # 使用方法
     //初始化一个自定义菜单
     YHCustomMenu *view = [[YHCustomMenu alloc] initWithFrame:CGRectMake(0, 20, (self.view.frame.size.height - 20)/7, self.view.frame.size.height-20)];
